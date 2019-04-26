@@ -51,5 +51,12 @@ namespace CvHazirla.Controllers
             return View();
         }
 
+        public ActionResult Linkedin()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
