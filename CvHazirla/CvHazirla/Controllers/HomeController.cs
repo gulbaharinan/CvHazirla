@@ -13,14 +13,14 @@ namespace CvHazirla.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Contact()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Deneyim()
         {
             ViewBag.Message = "Your contact page.";
 
@@ -44,6 +44,12 @@ namespace CvHazirla.Controllers
 
             return View();
         }
-       
+        public ActionResult Referanslar()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
